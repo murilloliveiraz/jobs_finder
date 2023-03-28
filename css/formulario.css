@@ -1,0 +1,39 @@
+.formulario {
+   height: 430px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px; 
+}
+
+.formulario_anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario_anuncio h1 {
+    font-size: 36px;
+}
+
+
+.formulario_anuncio p {
+    font-size: 20px;
+}
+
+input{
+    width: 360px;
+    height: 44px;
+    padding-left: 16px;
+}
+
+
+button {
+    background: #8e2424;
+    border-radius: 8px;
+    width: 112px;
+    height: 48px;
+    color: #fff;
+}

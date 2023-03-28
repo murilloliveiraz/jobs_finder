@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #667085;
+}
+
+.nav_logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.nav_logo img{
+    width: 27px;
+    height: 27px;
+    color: #8e2424;
+}
+
+.nav ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.entrar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.entrar button {
+    background: #8e2424;
+    border-radius: 8px;
+    width: 112px;
+    height: 44px;
+    color: #fff;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import url('header.css');
+
+@import url('cabecalho.css');
+
+@import url('metricas.css');
+
+@import url('vagas.css');
+
+@import url('depoimentos.css');
+
+@import url('formulario.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    color: #667085;
+}
+
+h1 {
+    color: #101828;
+}
+

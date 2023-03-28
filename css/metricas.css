@@ -1,0 +1,25 @@
+.metricas {
+    height: 288px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.resultado {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resultado h1 {
+    color : #8E2424;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.resultado p {
+    color: #667085;
+}

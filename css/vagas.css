@@ -1,0 +1,69 @@
+.vagas {
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.vagas_anuncio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vagas_anuncio span {
+    color:#8E2424;
+}
+
+.vagas_anuncio h1 {
+    font-size: 36px;
+}
+
+.vagas img {
+    width: 1216px;
+    height: 400px;
+}
+
+.vagas_disponiveis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    flex-direction: column;
+}
+
+.vagas_disponiveis h1 {
+    font-size: 20px;
+}
+
+.vagas_disponiveis h3 {
+    font-size: 18px;
+}
+
+.design_vagas {
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.devs_vagas{
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.design_vagas div ,  .devs_vagas div {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 136px;
+}
+
+.design_vagas h1 , .devs_vagas h1 {
+    margin-bottom: 32px;
+}
